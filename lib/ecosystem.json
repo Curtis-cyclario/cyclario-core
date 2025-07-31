@@ -1,4 +1,4 @@
 {
-  "dependencies": ["cyclario-hooks"],["cyclario-ui"].
-  "devDependencies": ["cyclario-core"].
+  "dependencies": ["cyclario-hooks"],["cyclario-ui"]
+  "devDependencies": ["cyclario-core"]
 }
