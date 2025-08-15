@@ -1,1 +1,37 @@
-// package.json for cyclario-core
+{
+  "name": "cyclario-core",
+  "version": "1.0.0",
+  "description": "Core infrastructure and foundational components for the Cyclario AI ecosystem",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist lib",
+    "test": "echo \"Tests coming soon!\" && exit 0"
+  },
+  "keywords": [
+    "cyclario",
+    "core",
+    "ai",
+    "typescript",
+    "library",
+    "ecosystem"
+  ],
+  "author": "Curtis Hodges-Currie",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Curtis-cyclario/cyclario-core.git"
+  },
+  "homepage": "https://github.com/Curtis-cyclario/cyclario-core#readme",
+  "bugs": {
+    "url": "https://github.com/Curtis-cyclario/cyclario-core/issues"
+  }
+}

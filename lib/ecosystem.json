@@ -1,4 +1,28 @@
 {
-  "dependencies": ["cyclario-hooks"],["cyclario-ui"]
-  "devDependencies": ["cyclario-core"]
+  "name": "cyclario-ecosystem",
+  "version": "1.0.0",
+  "description": "Cyclario AI Ecosystem Configuration",
+  "projects": {
+    "cyclario-core": {
+      "description": "Core infrastructure and shared utilities",
+      "repository": "https://github.com/Curtis-cyclario/cyclario-core",
+      "type": "library"
+    },
+    "cyclario-agentic-board-room": {
+      "description": "Self-refining boardroom of LLM models - digital employees",
+      "repository": "https://github.com/Curtis-cyclario/cyclario-agentic-board-room",
+      "type": "application",
+      "dependencies": ["cyclario-core"]
+    }
+  },
+  "shared_dependencies": [
+    "typescript",
+    "winston",
+    "chalk"
+  ],
+  "development_tools": [
+    "eslint",
+    "prettier",
+    "jest"
+  ]
 }
